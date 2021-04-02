@@ -66,7 +66,7 @@ margin-top: 42px;
     border-radius: 10px;
 }
 
-.body-heading-text {
+.body-text {
     margin-top: 64px;
     font-family: 'Roboto';
     font-style: normal;
@@ -77,6 +77,18 @@ margin-top: 42px;
     letter-spacing: 0.05em;
     color: #000000;
 }
+.body-text-small {
+    margin: 0 auto;
+    width: 750px;
+    margin-top: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
 .card-block {
     margin-top: 64px;
     margin-left: 113px;
@@ -86,6 +98,7 @@ margin-top: 42px;
     justify-content: space-between;
 }
 .card {
+    margin: auto;
     padding: 10px;
     width: 359px;
     height: 480.13px;
@@ -93,6 +106,7 @@ margin-top: 42px;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
     text-align: center;
+    color: #1F3F68;
 }
 .card-image {
     margin-top: 10px;}
@@ -102,6 +116,7 @@ margin-top: 42px;
    background-position: top center;
 }
 .card-main-text {
+    text-align: left;
     padding-top: 51px;
     padding-left: 32px;
     padding-right: 32px;
@@ -111,5 +126,40 @@ margin-top: 42px;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.05em;
-    color: #1F3F68;
+    }
+.card-text {
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 32px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+}
+.card-link-learn-more {
+    padding-left: 32px;
+    padding-bottom: 44.13px;
+    text-align: left ;
+}
+.smarthome-installation {
+    margin: 0 auto;
+    margin-top: 64px;
+    position: center;
+    width: 1140px;
+    height: 480px;
+    background-image: url(img/SmartHomeInstallation.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+}
+.finished-text-32 {
+color: #fff;
+padding-top: 64px;
+padding-right: 64px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 46px;
+text-align: right;
+letter-spacing: 0.05em;
 }
