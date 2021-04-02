@@ -90,14 +90,18 @@ padding: 0;
     display: flex;
     justify-content: space-between;
 }
+.footer_maintext {
+    width: 340px;
+    text-align: left;
+}
 .footer_text {
+    width: 495px;
     line-height: normal;
     margin-top: 30px;
     margin-bottom: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: left;
-    width: 35%;
     }
 .button {
     display: inline-block;
@@ -109,18 +113,10 @@ padding: 0;
     color: #fff;
 }
 .contacts_block {
-    text-align: center;
-    justify-content: space-around;
-    margin-top: 3%;
     display: flex;
-    margin: 0 5%;
     justify-content: space-between;
-    text-align: center;
 }
-.contact {
-    padding: 10px 0;
-    width: 350px;
-}
+
 .copyright {
     text-align: right;
     margin: 2% 5%;
@@ -138,6 +134,9 @@ padding: 0;
     padding: 30px;
     margin: 20px;
     width: 300px;
+}
+.contact {
+    flex-grow: 1;
 }
 .form_send_us_message {
     display: flex;
@@ -165,6 +164,6 @@ padding: 0;
     border-radius: 5px;
 }
 .map_script {
-    display: flex;
-    justify-content: center;
+    display: block;
+    width: 100%;
 }
