@@ -3,6 +3,7 @@
 }
 html {
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 .container {
     max-width: 1366px;
@@ -20,10 +21,10 @@ html {
     padding: 0 113px;
 }
 .menu-img-1 {
-margin-top: 42px;
+    margin-top: 42px;
 }
 .menu-img-2 {
-    margin-top: 39px; 
+    margin-top: 42px;
 }
 .header-table {
     display: flex;
@@ -36,7 +37,7 @@ margin-top: 42px;
 
 }
 .header-main-text {
-    width: 504px;
+    width: 514px;
     margin-top: 115px;
     margin-left: 113px;
     font-style: normal;
@@ -47,9 +48,12 @@ margin-top: 42px;
 }
 .header-text {
     width: 425px;
-    padding-top: 32px;
-    padding-left: 114px;
+    margin-top: 32px;
+    margin-left: 114px;
+    font-size: 16px;
+    line-height: 26px;
     font-weight: 400;
+    letter-spacing: 0.05em;
 }
 .button-see-our-project {
     padding-left: 114px;
@@ -68,41 +72,32 @@ margin-top: 42px;
 
 .body-text {
     margin-top: 64px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 300;
     font-size: 36px;
     line-height: 46px;
     text-align: center;
     letter-spacing: 0.05em;
-    color: #000000;
 }
 .body-text-small {
     margin: 0 auto;
     width: 750px;
     margin-top: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
     text-align: center;
+    color: #222222;
 }
 .card-block {
     margin-top: 64px;
-    margin-left: 113px;
-    margin-right: 113px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center
 }
 .card {
-    margin: auto;
-    padding: 10px;
+    margin: 0 16px;
     width: 359px;
     height: 480.13px;
-    background: #FFFFFF;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
     text-align: center;
@@ -140,7 +135,7 @@ margin-top: 42px;
     padding-bottom: 44.13px;
     text-align: left ;
 }
-.smarthome-installation {
+.finished-card-main {
     margin: 0 auto;
     margin-top: 64px;
     position: center;
@@ -155,11 +150,99 @@ margin-top: 42px;
 color: #fff;
 padding-top: 64px;
 padding-right: 64px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: normal;
 font-size: 32px;
 line-height: 46px;
 text-align: right;
 letter-spacing: 0.05em;
+}
+.finished-cards-other {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.other-card {
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 32px;
+    padding-top: 32px;
+    padding-left: 32px;
+    width: 554px;
+    height: 417px;
+    border-radius: 10;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    color: #fff;
+}
+.other-1 {
+background-image: url(img/SparkLiteApp.jpg);
+margin-right: 32px;
+}
+.other-2 {
+background-image: url(img/Car-RapeitionApp.jpg);
+}
+.bigfooter {
+    background-color: #316099;
+    color: #fff;
+}
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-maintext {
+font-size: 36px;
+font-weight: 400;
+line-height: 46px;
+width: 341px;
+padding-top: 91px;
+margin-left: 113px;
+}
+.footer-small-text {
+    width: 495px;
+    margin-top: 32px;
+    margin-left: 113px;
+    padding-bottom: 96px;
+    font-style: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+.footer-button {
+    width: 236.63px;
+    height: 56px;
+    margin-top: 165px;
+    margin-right: 115px;
+    background-color: #5A98D0;
+    color: #fff;
+    font-weight: 400;
+    font-style: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    border-color: inherit;
+}
+.contact-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 113px;
+    padding-right: 113px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+}
+.contact {
+    width: 316px;
+}
+.pre-contact {
+    width: 23px;
+}
+.copyright {
+    padding-left: 113px;
+    padding-bottom: 64px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.4;
 }
