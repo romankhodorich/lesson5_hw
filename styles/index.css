@@ -8,41 +8,17 @@ html {
     font-weight: 300;
 }
 
+/* Контейнер общий 1366px*/
 .container {
     max-width: 1366px;
     margin: 0 auto;
 }
 
-.header {
-    border: 1px solid #000;
-    background-image: url(../img/Rectangle.png);
-    color: #1F3F68;
-}
-
-.main-menu {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 113px;
-}
-
-.menu-img-1 {
-    margin-top: 42px;
-}
-
-.menu-img-2 {
-    margin-top: 42px;
-}
-
-.header-table {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
+/* Все шрифтовые стили */
 
 .header-main-text {
     max-width: 514px;
     margin-top: 115px;
-    margin-left: 113px;
     font-style: normal;
     font-weight: 300;
     font-size: 64px;
@@ -53,28 +29,12 @@ html {
 .header-text {
     max-width: 425px;
     margin-top: 32px;
-    margin-left: 114px;
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
     letter-spacing: 0.05em;
 }
 
-.button-see-our-project {
-    padding-left: 114px;
-    padding-top: 71px;
-}
-
-.button-header {
-    width: 220px;
-    height: 56px;
-    background-color: #5A98D0;
-    color: #fff;
-    font-size: 16px;
-    line-height: 26px;
-    box-shadow: 5px 10px 20px;
-    border-radius: 10px;
-}
 
 .body-text {
     margin-top: 64px;
@@ -97,6 +57,125 @@ html {
     text-align: center;
     color: #222222;
 }
+
+.card-main-text {
+    text-align: left;
+    padding-top: 51px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+
+.card-text {
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 32px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+}
+
+.finished-text-32 {
+    color: #fff;
+    padding-top: 64px;
+    padding-right: 64px;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+}
+
+.footer-maintext {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    max-width: 341px;
+    padding-top: 91px;
+    margin-left: 113px;
+}
+
+.footer-small-text {
+    max-width: 495px;
+    margin-top: 32px;
+    margin-left: 113px;
+    padding-bottom: 96px;
+    font-style: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+
+.contact-us-main-text {
+    font-weight: 500;
+    font-size: 44px;
+    letter-spacing: 0.04em;
+}
+
+.contact-us-text {
+    margin: 0 auto;
+    margin-top: 16px;
+    max-width: 780px;
+    margin-top: 16px;
+}
+
+/* Шапка */
+.header {
+    background-image: url(../img/Rectangle.png);
+    color: #1F3F68;
+    padding: 0 113px;
+    min-height: 768px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-img-1 {
+    margin-top: 42px;
+}
+
+.menu-img-2 {
+    margin-top: 42px;
+}
+
+.flex-header-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(/img/illustration.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.left-header-flex {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.button-see-our-project {
+    padding-top: 71px;
+}
+
+.button-header {
+    width: 220px;
+    height: 56px;
+    background-color: #5A98D0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    box-shadow: 5px 10px 20px;
+    border-radius: 10px;
+}
+
 
 .card-block {
     margin-top: 32px;
@@ -125,28 +204,6 @@ html {
     background-position: top center;
 }
 
-.card-main-text {
-    text-align: left;
-    padding-top: 51px;
-    padding-left: 32px;
-    padding-right: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-}
-
-.card-text {
-    text-align: left;
-    padding-top: 15px;
-    padding-left: 32px;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-}
-
 .card-link-learn-more {
     padding-left: 32px;
     padding-bottom: 44.13px;
@@ -161,47 +218,11 @@ html {
 
 .finished-card-1 {
     flex-grow: 2;
-    min-width: 343px;
     margin: 0 auto;
-    margin-top: 64px;
-    margin-left: 32px;
-    margin-right: 32px;
     background-image: url(../img/SmartHomeInstallation.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 10px;
-}
-
-.finished-text-32 {
-    color: #fff;
-    padding-top: 64px;
-    padding-right: 64px;
-    font-size: 32px;
-    line-height: 46px;
-    text-align: right;
-    letter-spacing: 0.05em;
-}
-
-.finished-cards-other {
-    max-width: 1140px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.other-card {
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 32px;
-    padding-top: 32px;
-    padding-left: 32px;
-    max-width: 554px;
-    max-height: 417px;
-    border-radius: 10;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 46px;
-    color: #fff;
 }
 
 .finished-card-2 {
@@ -223,26 +244,6 @@ html {
 .footer-top {
     display: flex;
     justify-content: space-between;
-}
-
-.footer-maintext {
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 46px;
-    max-width: 341px;
-    padding-top: 91px;
-    margin-left: 113px;
-}
-
-.footer-small-text {
-    max-width: 495px;
-    margin-top: 32px;
-    margin-left: 113px;
-    padding-bottom: 96px;
-    font-style: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    opacity: 0.6;
 }
 
 .footer-button {
@@ -319,25 +320,8 @@ html {
     margin: 0 auto;
 }
 
-.contact-us-main-text {
-    font-weight: 500;
-    font-size: 44px;
-    letter-spacing: 0.04em;
-}
-
-.contact-us-text {
-    margin: 0 auto;
-    margin-top: 16px;
-    max-width: 780px;
-    margin-top: 16px;
-}
-
 @media (max-width: 767px) {
     .image-block {
         visibility: hidden;
     }
-}
-
-.image-block {
-    border: 1px solid #000;
 }
