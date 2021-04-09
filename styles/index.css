@@ -4,8 +4,104 @@
 }
 
 body {
-    font-family: 'roboto';
+    font-family: 'roboto', sans-serif;
 }
+
+/* Параметры шрифтов для заголовков и абзацев */
+.top__heading {
+    width: 510px;
+    font-size: 54px;
+    color: #1f3f68;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+}
+
+.top__text {
+    width: 425px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1f3f68;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+
+.heading {
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.05em
+}
+
+.heading-mini {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1f3f68;
+    letter-spacing: 0.05em;
+    margin-bottom: 14px;
+}
+
+.card__link {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5a98d0;
+    text-decoration: none;
+}
+
+.text_project {
+    width: 75%;
+    margin: 32px auto 64px;
+    text-align: center;
+    color: #222;
+    opacity: 1;
+}
+
+.project__text {
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.project__text2 {
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.footer-heading {
+    width: 340px;
+    margin-bottom: 32px;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: left;
+    font-weight: 300;
+    letter-spacing: 0.05em
+}
+
+.footer-text-mini {
+    font-weight: 400;
+    width: 495px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+
+/* Конец описаний шрифтов для заголовков и абзацев */
 
 .container {
     max-width: 1140px;
@@ -38,28 +134,6 @@ body {
     background-position: right center;
 }
 
-.top__heading {
-    width: 510px;
-    font-size: 54px;
-    color: #1f3f68;
-    font-weight: 300;
-    line-height: 74px;
-    letter-spacing: 0.04em;
-    margin-bottom: 32px;
-}
-
-.top__text {
-    width: 425px;
-}
-
-.text {
-    font-size: 16px;
-    line-height: 26px;
-    color: #1f3f68;
-    letter-spacing: 0.05em;
-    opacity: 0.6;
-}
-
 .top__button {
     font-size: 16px;
     line-height: 26px;
@@ -73,4 +147,110 @@ body {
     display: inline-block;
     margin-top: 71px;
     text-decoration: none;
+}
+
+.what-we-do {
+    padding-top: 64px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+}
+
+.card__img {
+    align-self: center;
+    margin-bottom: 51px;
+}
+
+.card {
+    width: 359px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card2 {
+    background-image: url(../img/card2_bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.project {}
+
+.project__img {
+    width: 100%;
+}
+
+.project__parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.project__item {
+    position: relative;
+    flex-grow: 1;
+}
+
+.project2 {
+    margin-right: 32px;
+}
+
+.footer {
+    margin-top: 112px;
+    padding-top: 91px;
+    padding-bottom: 64px;
+    background-color: #316099;
+    color: #fff;
+    text-align: left;
+
+}
+
+.footer-top {
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    padding: 15px 80px;
+    background-color: #5a98d0;
+    text-decoration: none;
+}
+
+hr {
+    opacity: 0.4;
+}
+
+.footer__info {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__list {
+    margin-right: 32px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    flex-grow: 1;
+    flex-basis: 33.3333%;
+    list-style-type: none;
+}
+
+.copyright {
+    margin-top: 64px;
 }
