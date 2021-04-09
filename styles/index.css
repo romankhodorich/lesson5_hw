@@ -142,7 +142,7 @@ body {
     letter-spacing: 0.04em;
     color: #fff;
     background: #5a98d0;
-    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0, 2);
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
     border-radius: 10px;
     padding: 15px 50px;
     display: inline-block;
@@ -221,6 +221,7 @@ body {
 }
 
 .footer-button {
+    color: #fff;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
