@@ -25,7 +25,7 @@ html {
 
 .contact-us-header {
     min-height: 471px;
-    background-image: url(../img/contacts_header_bg.jpg);
+    background-image: url(../img/contact_us_header.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: center;
@@ -80,6 +80,7 @@ html {
     font-size: 16px;
     font-weight: 300;
     line-height: 26px;
+    list-style-position: inside;
     list-style-image: url(../img/phone.png);
 }
 
@@ -88,6 +89,8 @@ html {
     font-size: 16px;
     font-weight: 300;
     line-height: 26px;
+
+    list-style-position: inside;
     list-style-image: url(../img/www.svg);
     letter-spacing: 0.05em;
 }
@@ -97,6 +100,7 @@ html {
     font-size: 16px;
     font-weight: 300;
     line-height: 26px;
+    list-style-position: inside;
     list-style-image: url(../img/mail.svg);
     letter-spacing: 0.05em;
 }
