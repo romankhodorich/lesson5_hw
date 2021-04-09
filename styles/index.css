@@ -3,325 +3,74 @@
     padding: 0;
 }
 
-html {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+body {
+    font-family: 'roboto';
 }
 
-/* Контейнер общий 1366px*/
 .container {
-    max-width: 1366px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
-/* Все шрифтовые стили */
+.top {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
 
-.header-main-text {
-    max-width: 514px;
-    margin-top: 115px;
-    font-style: normal;
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 42px;
+}
+
+.top__box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top__info {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(../img/illustration.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.top__heading {
+    width: 510px;
+    font-size: 54px;
+    color: #1f3f68;
     font-weight: 300;
-    font-size: 64px;
     line-height: 74px;
     letter-spacing: 0.04em;
+    margin-bottom: 32px;
 }
 
-.header-text {
-    max-width: 425px;
-    margin-top: 32px;
+.top__text {
+    width: 425px;
+}
+
+.text {
     font-size: 16px;
     line-height: 26px;
-    font-weight: 400;
-    letter-spacing: 0.05em;
-}
-
-
-.body-text {
-    margin-top: 64px;
-    margin-left: 32px;
-    margin-right: 32px;
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 46px;
-    text-align: center;
-    letter-spacing: 0.05em;
-}
-
-.body-text-small {
-    margin: 0 auto;
-    max-width: 750px;
-    margin-top: 32px;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    text-align: center;
-    color: #222222;
-}
-
-.card-main-text {
-    text-align: left;
-    padding-top: 51px;
-    padding-left: 32px;
-    padding-right: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.05em;
-}
-
-.card-text {
-    text-align: left;
-    padding-top: 15px;
-    padding-left: 32px;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-}
-
-.finished-text-32 {
-    color: #fff;
-    padding-top: 64px;
-    padding-right: 64px;
-    font-size: 32px;
-    line-height: 46px;
-    text-align: right;
-    letter-spacing: 0.05em;
-}
-
-.footer-maintext {
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 46px;
-    max-width: 341px;
-    padding-top: 91px;
-    margin-left: 113px;
-}
-
-.footer-small-text {
-    max-width: 495px;
-    margin-top: 32px;
-    margin-left: 113px;
-    padding-bottom: 96px;
-    font-style: 16px;
-    line-height: 26px;
+    color: #1f3f68;
     letter-spacing: 0.05em;
     opacity: 0.6;
 }
 
-.contact-us-main-text {
-    font-weight: 500;
-    font-size: 44px;
-    letter-spacing: 0.04em;
-}
-
-.contact-us-text {
-    margin: 0 auto;
-    margin-top: 16px;
-    max-width: 780px;
-    margin-top: 16px;
-}
-
-/* Шапка */
-.header {
-    background-image: url(../img/Rectangle.png);
-    color: #1F3F68;
-    padding: 0 113px;
-    min-height: 768px;
-}
-
-.main-menu {
-    display: flex;
-    justify-content: space-between;
-}
-
-.menu-img-1 {
-    margin-top: 42px;
-}
-
-.menu-img-2 {
-    margin-top: 42px;
-}
-
-.flex-header-block {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-image: url(/img/illustration.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
-}
-
-.left-header-flex {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    justify-items: center;
-}
-
-.button-see-our-project {
-    padding-top: 71px;
-}
-
-.button-header {
-    width: 220px;
-    height: 56px;
-    background-color: #5A98D0;
-    color: #fff;
+.top__button {
     font-size: 16px;
     line-height: 26px;
-    box-shadow: 5px 10px 20px;
-    border-radius: 10px;
-}
-
-
-.card-block {
-    margin-top: 32px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center
-}
-
-.card {
-    margin: 32px 16px;
-    max-width: 359px;
-    max-height: 480px;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
     text-align: center;
-    color: #1F3F68;
-}
-
-.card-image {
-    margin-top: 10px;
-}
-
-.card2 {
-    background-image: url(../img/card2_image2.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-}
-
-.card-link-learn-more {
-    padding-left: 32px;
-    padding-bottom: 44.13px;
-    text-align: left;
-}
-
-.finished-cards {
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.finished-card-1 {
-    flex-grow: 2;
-    margin: 0 auto;
-    background-image: url(../img/SmartHomeInstallation.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 10px;
-}
-
-.finished-card-2 {
-    flex-grow: 1;
-    background-image: url(../img/SparkLiteApp.jpg);
-    margin-right: 32px;
-}
-
-.finished-card-32 {
-    flex-grow: 1;
-    background-image: url(../img/Car-RapeitionApp.jpg);
-}
-
-.bigfooter-main {
-    background-color: #316099;
-    color: #fff;
-}
-
-.footer-top {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-button {
-    width: 236.63px;
-    height: 56px;
-    margin-top: 165px;
-    margin-right: 115px;
-    background-color: #5A98D0;
-    color: #fff;
-    font-weight: 400;
-    font-style: 16px;
-    line-height: 26px;
     letter-spacing: 0.04em;
-    border-color: inherit;
-}
-
-
-.contact-list {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 64px;
-    padding-bottom: 64px;
-    padding-left: 113px;
-    padding-right: 113px;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-}
-
-.contact {
-    margin-right: 32px;
-    width: 316px;
-    letter-spacing: 0.05em;
-    font-weight: 400;
-}
-
-.pre-contact {
-    width: 23px;
-}
-
-.copyright {
-    padding-left: 113px;
-    padding-bottom: 64px;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    opacity: 0.4;
-}
-
-.contacts-navbar {
-    margin: 0 auto;
-    max-width: 940px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.contact-us-header {
-    height: 471px;
-    background-image: url(../img/contacts_header_bg.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position-x: center;
-    background-position-y: center;
-    text-align: center;
     color: #fff;
-}
-
-.contacts-header-text {
-    max-width: 940px;
-    height: 471px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-@media (max-width: 767px) {
-    .image-block {
-        visibility: hidden;
-    }
+    background: #5a98d0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0, 2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    display: inline-block;
+    margin-top: 71px;
+    text-decoration: none;
 }
