@@ -252,7 +252,10 @@ hr {
 }
 
 .copyright {
+    display: flex;
+    justify-content: space-between;
     margin-top: 64px;
+    margin-right: 124px;
     opacity: 0.4;
 }
 
