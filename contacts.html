@@ -12,78 +12,78 @@
 </head>
 
 <body>
-    <div class="contacts-navbar">
+    <ul class="container navbar">
         <!-- верхнее меню страницы контакты -->
-        <a href="index.html"> <img class="menu-img-1" src="img/logo.svg" alt="Главная"></a>
-        <a href="contacts.html"><img class="menu-img-2" src="img/contacts.svg" alt="Контакты"></a>
+        <li> <a href="index.html"> <img class="menu-img-1" src="img/logo.svg" alt="Главная"></a></li>
+        <li> <a href="contacts.html"><img class="menu-img-2" src="img/contacts.svg" alt="Контакты"></a></li>
+    </ul>
     </div>
-    <div class="contact-us-header">
+    <div class="header">
         <!-- header страницы контакты -->
-        <div class="contacts-header-text">
-            <p class=contact-us-main-text>Contact Us</p>
-            <p class="contact-us-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus inventore
-                cupiditate, ea deserunt
-                quod quia culpa sunt voluptatem ducimus explicabo labore officia ex, eligendi laboriosam tenetur iure!
-                Cum, sed veritatis. </p>
-        </div>
+        <h1 class="heading">Contact Us</h1>
+        <p class="header-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
+            inventore
+            cupiditate, ea deserunt
+            quod quia culpa sunt voluptatem ducimus explicabo labore officia ex, eligendi laboriosam tenetur
+            iure!
+            Cum, sed veritatis. </p>
     </div>
-    <div class="contacts-container">
-        <div class="contact-2blocks">
-            <!-- две карточки - контактная информация и форма обратной связи -->
-            <div class="contact-info">
-                <!-- карточка контакты -->
-                <img src="img/8.svg" alt="contacts">
-                <p class="roboto-500-20-30">ADDRESS</p>
-                <p class="adress-text">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
-                <p class="roboto-500-20-30">PHONE</p>
-                <ul>
-                    <li class="phone-number">+79260205550</li>
-                    <li class="phone-number">+79037954611</li>
-                </ul>
-                <p class="roboto-500-20-30">ONLINE-SERVICE</p>
-                <ul>
-                    <li class="www-link"><a href="www.the-cheese.ru" target="_blank">www.the-cheese.ru</a></li>
-                    <li class="email-link"><a href="mailto:romankhodorich@gmail.com">romankhodorich@gmail.com</a></li>
-                </ul>
-            </div>
-            <div class="contact-form">
-                <!-- форма обратной связи-->
-                <form action="#">
-                    <p class="send-us-message-maintext">SEND US MESSAGE</p>
-                    <p class="roboto-16-30">Full name</p>
-                    <input class="input-area" type="text" placeholder="Your Name">
-                    <p class="roboto-16-30">Email</p>
-                    <input class="input-area" type="email" placeholder="Your email">
-                    <p class="roboto-16-30">Message</p>
-                    <textarea class="input-area" cols="15" rows="5" placeholder="Your Message"></textarea>
-                    <br>
-                    <button class="submit-button" type="submit">Submit</button>
-                </form>
-            </div>
+    <div class="container contact-body">
+        <!-- две карточки - контактная информация и форма обратной связи -->
+        <div class="contact-info">
+            <!-- карточка контакты -->
+            <img class="contact-image" src="img/contact_card.svg" alt="contacts">
+            <h3 class="card-heading">ADDRESS</h3>
+            <p class="card-text">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
+            <h3 class="card-heading">PHONE</h3>
+            <ul class="phone-list">
+                <li class="card-text link"><a href="tel:+79260205550"> +7 (926) 020- 55-50</a></li>
+                <li class="card-text link">+79037954611</li>
+            </ul>
+            <h3 class="card-heading">ONLINE-SERVICE</h3>
+            <ul class="online-service-list">
+                <li class="card-text link"><a href="www.the-cheese.ru" target="_blank">www.the-cheese.ru</a></li>
+                <li class="card-text link"><a href="mailto:romankhodorich@gmail.com">romankhodorich@gmail.com</a>
+                </li>
+            </ul>
         </div>
+        <div class="contact-form">
+            <!-- форма обратной связи-->
+            <h3 class="form-heading">SEND US MESSAGE</h3>
+            <p class="form-text">Full name</p>
+            <input class="input-area" type="text" placeholder="Your Name">
+            <p class="form-text">Email</p>
+            <input class="input-area" type="email" placeholder="Your email">
+            <p class="form-text">Message</p>
+            <textarea class="input-area" cols="15" rows="5" placeholder="Your Message"></textarea>
+            <br>
+            <button class="submit-button" type="submit">Submit</button>
 
-        <div class="map-block">
-            <!-- карта яндекс -->
-            <script type="text/javascript" charset="utf-8" async
-                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa615d68423f991b2df582e32fafc04dea018ec1cf05e5769e468bdd6980276d8&amp;width=100%25&amp;height=464&amp;lang=ru_RU&amp;scroll=false">
-            </script>
         </div>
     </div>
-    <div class="bigfooter-contacts">
+
+    <div class="container map">
+        <!-- карта яндекс -->
+        <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa615d68423f991b2df582e32fafc04dea018ec1cf05e5769e468bdd6980276d8&amp;width=100%25&amp;height=464&amp;lang=ru_RU&amp;scroll=false">
+        </script>
+    </div>
+    </div>
+    <div class="footer">
         <!-- Подвал -->
-        <div class="footer-top-contacts">
+        <div class="container footer-top">
             <!-- Верхняя часть подвала -->
-            <div>
-                <p class="roboto-500-36-46">Interested to work with our team?</p>
-                <p class="footer-small-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            <div class="footer-top-text">
+                <h1 class="footer-heading">Interested to work with our team?</h1>
+                <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
-            <form action="#">
-                <div><button class=footer-button-contacts type="submit">Let's Talk</button></div>
-            </form>
+
+            <button class=footer-button type="submit">Let's Talk</button>
+
         </div>
         <hr>
-        <div class="footer-botom">
+        <div class="container footer-botom">
             <!-- нижняя часть подвала -->
             <div class="contacts-footer">
                 <!-- контейнер из 3 блоков -->
@@ -121,7 +121,7 @@
             </div>
         </div>
 
-        <div class="copyright">All rights reserved &copy;</div>
+        <div class="container copyright">All rights reserved &copy;</div>
     </div>
 </body>
 
