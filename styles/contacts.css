@@ -10,9 +10,7 @@ body {
 
 .container {
     max-width: 940px;
-    margin: 0 15%;
-
-
+    margin: 0 auto;
 }
 
 .navbar {
@@ -93,7 +91,17 @@ body {
     list-style-position: inside;
 }
 
-.link {}
+
+
+.wwww {
+    list-style-position: inside;
+    list-style-image: url(../img/www.svg);
+}
+
+.email {
+    list-style-position: inside;
+    list-style-image: url(../img/mail.svg);
+}
 
 .contact-form {
     padding: 56px 56px;
@@ -181,4 +189,64 @@ body {
     height: 56px;
     background: #5A98D0;
     color: #fff;
+    border-style: none;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+}
+
+hr {
+    opacity: 0.4;
+    margin-bottom: 97px;
+}
+
+.contacts-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.afrianska {
+    list-style-image: url(../img/Afrianska_logo.svg);
+    list-style-position: inside;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    padding-bottom: 33px;
+}
+
+.footer-heading-2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    padding-bottom: 32px;
+}
+
+.footer-list {
+    max-width: 33.3333%;
+    list-style-position: inside;
+    margin-right: 36px;
+}
+
+.copyright {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+@media (max-width:1024px) {
+    .container {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .contact-body {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        margin-bottom: 64px;
+    }
+
 }
