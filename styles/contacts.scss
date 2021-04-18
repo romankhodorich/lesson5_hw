@@ -13,6 +13,11 @@ body {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+    color: #1F3F68;
+}
+
 .navbar {
     margin-top: 48px;
     margin-bottom: 48px;
@@ -67,7 +72,7 @@ body {
 }
 
 .contact-info {
-    width: 300px;
+    max-width: 300px;
 }
 
 .card-heading {
@@ -87,23 +92,62 @@ body {
     color: #1F3F68;
     opacity: 0.6;
     text-decoration: none;
+    padding-bottom: 16px;
 }
 
-.phone-list {
-    list-style-image: url(../img/phone.png);
-    list-style-position: inside;
+.phone-number {
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    padding-bottom: 16px;
 }
 
+.phone-number::before {
+    width: 18px;
+    height: 18px;
+    content: "";
+    background: url("/img/phone.png") no-repeat center center;
+    display: inline-block;
+    margin-right: 18px;
+}
 
+.www {
+    list-style-type: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
 
-.wwww {
-    list-style-position: inside;
-    list-style-image: url(../img/www.svg);
+.www::before {
+    width: 20px;
+    height: 20px;
+    content: "";
+    background: url("/img/www.svg") no-repeat center center;
+    display: inline-block;
+    margin-right: 18px;
 }
 
 .email {
-    list-style-position: inside;
-    list-style-image: url(../img/mail.svg);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    list-style-type: none;
+}
+
+.email::before {
+    width: 20px;
+    height: 16px;
+    content: "";
+    background: url("/img/mail.svg") no-repeat center center;
+    display: inline-block;
+    margin-right: 18px;
 }
 
 .contact-form {
@@ -206,18 +250,25 @@ hr {
 .contacts-footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    border: 3px solid rgb(240, 0, 0);
+    align-items: center top;
 }
 
 .afrianska {
-    list-style-image: url(../img/Afrianska_logo.svg);
-    list-style-position: inside;
+    list-style-type: none;
     font-weight: 500;
     font-size: 28px;
     line-height: 46px;
     letter-spacing: 0.02em;
     padding-bottom: 33px;
+}
+
+.afrianska::before {
+    width: 52px;
+    height: 32px;
+    content: "";
+    background: url("/img/Afrianska_logo.svg") no-repeat center center;
+    display: inline-block;
+    margin-right: 18px;
 }
 
 .footer-heading-2 {
@@ -226,6 +277,39 @@ hr {
     line-height: 30px;
     letter-spacing: 0.05em;
     padding-bottom: 32px;
+}
+
+.contact-a::before {
+    content: "A.";
+    display: inline;
+    margin-right: 17.21px;
+}
+
+.contact-a {
+    margin-bottom: 24px;
+}
+
+.contact-t::before {
+    content: "T.";
+    margin-right: 17.21px;
+}
+
+.contact-t {
+    margin-bottom: 24px;
+}
+
+.contact-e::before {
+    content: "E";
+    margin-right: 17.21px;
+}
+
+.bottom-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    list-style-type: none;
+    margin-bottom: 16px;
 }
 
 .footer-list {
